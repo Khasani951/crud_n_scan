@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.taufik.rmi.material.MaterialActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etMat_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isi Tag Material"/>
+
+        <EditText
+            android:id="@+id/etMat_berat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Berat"/>
+
+        <EditText
+            android:id="@+id/etMat_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start"/>
+
+        <EditText
+            android:id="@+id/etMat_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Finish"/>
+
+        <EditText
+            android:id="@+id/etMat_ttltime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Time"/>
+
+        <EditText
+            android:id="@+id/etMat_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Result"/>
+
+        <Button
+            android:backgroundTint="#009688"
+            android:onClick="onSafeMaterial"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Material"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

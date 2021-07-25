@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.taufik.rmi.machine.MachineActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etMac_nomc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isi Nomor Mesin"/>
+
+        <EditText
+            android:id="@+id/etMac_dieheight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Die Height"/>
+
+        <EditText
+            android:id="@+id/etMac_spm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SPM"/>
+
+        <EditText
+            android:id="@+id/etMac_tmid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Timing ID"/>
+
+        <EditText
+            android:id="@+id/etMac_vorl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vorl ID"/>
+
+        <Button
+            android:backgroundTint="#009688"
+            android:onClick="onSafeMesin"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Data Mesin"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

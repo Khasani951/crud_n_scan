@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.taufik.rmi.barcode.AddLotNoActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:enabled="false"
+            android:id="@+id/etLot_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isi Lot No"/>
+
+        <EditText
+            android:id="@+id/etLot_idaliy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id Daily"/>
+
+        <EditText
+            android:id="@+id/etLot_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"/>
+
+        <EditText
+            android:id="@+id/etLot_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Box"/>
+
+        <EditText
+            android:id="@+id/etLot_ttl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total"/>
+
+        <Button
+            android:backgroundTint="#009688"
+            android:id="@+id/btLot_save"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save LotNo"/>
+
+        <Button
+            android:backgroundTint="#FF5722"
+            android:onClick="toScanAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan Again"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
